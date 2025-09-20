@@ -1,0 +1,22 @@
+/* src/styles/ReportsPage.css */
+.reports-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.reports-page h1 {
+  color: #333;
+}
+
+.reports-page button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reports-page button:hover {
+  background-color: #2980b9;
+}
