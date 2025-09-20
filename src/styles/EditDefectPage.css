@@ -1,0 +1,44 @@
+/* src/styles/EditDefectPage.css */
+.edit-defect-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.edit-defect-page h1 {
+  color: #333;
+}
+
+.edit-defect-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-defect-page label {
+  margin-bottom: 10px;
+}
+
+.edit-defect-page input,
+.edit-defect-page select,
+.edit-defect-page textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-defect-page button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-defect-page button:hover {
+  background-color: #27ae60;
+}
+
+.edit-defect-page button:focus {
+  outline: none;
+}
